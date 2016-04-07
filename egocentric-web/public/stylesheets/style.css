@@ -1,8 +1,26 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	background-color: #000000;
+	color: #FAFAFA;
 }
 
 a {
-  color: #00B7FF;
+	color: #00B7FF;
+}
+
+
+/* A responsive 4-column grid layout */
+
+* {
+	box-sizing: border-box;
+}
+
+.col-1 {width: 25%;}
+.col-2 {width: 50%;}
+.col-3 {width: 75%;}
+.col-4 {width: 100%;}
+
+[class*="col-"] {
+	float: left;
+	padding: 15px;
 }

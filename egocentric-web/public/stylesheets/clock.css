@@ -27,30 +27,17 @@
 	left: 49%;
 	background: #FFFFFF;
 	position: absolute;
-
-	transform: rotate(-180deg);
 }
 
 .hours {
 	height: 30%;
 	top: 26%;
-	animation: rotation 4s infinite linear;
 	transform-origin: 50% 80%;
 }
 .minutes {
 	height: 50%;
 	top: 10%;
-	animation: rotation 3s infinite linear;
 	transform-origin: 50% 80%;
 }
 
-
-@keyframes rotation {
-	0% {
-		transform: rotate(180deg);
-	}
-	100% {
-		transform: rotate(-180deg);
-	}
-}
 
